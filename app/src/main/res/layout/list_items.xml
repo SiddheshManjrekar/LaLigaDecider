@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        >
+
+
+        <TextView
+            android:layout_weight="33.33"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:id="@+id/expandedListItem" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="33.33"
+            android:weightSum="100"
+            >
+
+            <Button
+                android:layout_weight="33.33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="#4fff"
+                android:id="@+id/button1"
+                />
+
+            <Button
+                android:layout_weight="33.33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:background="#4fff"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_weight="33.33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:gravity="center"
+                android:background="#4fff"
+                android:textColor="#fff"
+                android:id="@+id/button3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_weight="33.33"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:id="@+id/expandedListItem1" />
+
+    </LinearLayout>
+
+</LinearLayout>

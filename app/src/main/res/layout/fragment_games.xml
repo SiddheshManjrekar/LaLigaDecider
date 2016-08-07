@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="@drawable/trophy"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#fff"
+            android:textAllCaps="true"
+            android:text="Barcelona Fixtures"
+            android:paddingBottom="10dp" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#5fff"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#fff"
+            android:text="Atletico Madrid Fixtures"
+            android:paddingBottom="10dp"
+            />
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#5fff"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/listTitle"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#fff"
+            android:text="Real Madrid Fixtures"
+            android:paddingBottom="10dp" />
+
+        <ListView
+            android:id="@+id/listView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>
+</ScrollView>
